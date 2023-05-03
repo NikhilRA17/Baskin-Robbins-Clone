@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  width: 100%;
+  height: 78%;
+}
+.header {
+  width: 100%;
+  height: 15%;
+  box-shadow: 0px 2px 2px rgb(218, 212, 212);
+  display: flex;
+}
+
+.header img {
+  height: 50px;
+  width: 50px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.header h3 {
+  margin-left: 15px;
+  margin-top: 12px;
+  height: max-content;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.mailSection {
+  width: 100%;
+  height: 85%;
+  text-align: center;
+}
+.mailSection p {
+  color: rgb(165, 162, 162);
+  height: 30px;
+  margin-top: 85px;
+  font-size: 19px;
+}
+.mailSection h1 {
+  height: 50px;
+  color: rgb(40, 38, 38);
+}
+
+.mailSection .searchMail {
+  width: 45%;
+  height: 70px;
+  margin-top: 40px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+.mailSection .searchMail button {
+  width: 37%;
+  height: 100%;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  background-color: rgb(214, 38, 117);
+  border-radius: 10px;
+  border-style: none;
+}
+.mailSection .searchMail p {
+  width: 7%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 15px;
+}
+.mailSection .searchMail input {
+  width: 56%;
+  height: 100%;
+  border: 1px solid rgb(214, 38, 117);
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 22%;
+  box-shadow: 0px 0px 3px 3px rgb(218, 212, 212);
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footerContent {
+  width: 29%;
+  height: 70%;
+  text-align: center;
+  color: rgb(165, 162, 162);
+  margin-top: 25px;
+}
+.footer .footerContent img {
+  height: 30px;
+  width: 30px;
+}
+.footer .footerContent h4 {
+  height: 30px;
+}
+.footer .footerContent h5 {
+  height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}

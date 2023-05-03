@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerPart {
+  height: 110px;
+  width: 100%;
+  padding: 35px;
+  display: flex;
+  position: fixed;
+  background-color: white;
+}
+.setting,
+.logo,
+.shop {
+  width: 33%;
+}
+.setting img {
+  height: 28px;
+  margin-left: 5%;
+  cursor: pointer;
+  margin-top: 2%;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  height: 48px;
+  cursor: pointer;
+}
+.shop {
+  text-align: end;
+}
+.shop .shopBtn {
+  margin-right: 5%;
+  height: 45px;
+  width: 90px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(241, 55, 126);
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.headerHeight {
+  height: 110px;
+}
+
+.homepage .homepageImage {
+  width: 100%;
+  height: 570px;
+}
+.iceCups {
+  width: 80%;
+
+  top: 350px;
+  margin: auto;
+}
+.iceCups .icePic {
+  height: 280px;
+}
+.whatsNew {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  margin-bottom: 75px;
+}
+.whats {
+  color: rgb(202, 35, 91);
+}
+.new {
+  color: rgb(40, 17, 17);
+}
+.icecreamSection {
+  height: 450px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.singleProduct {
+  width: 280px;
+  height: 100%;
+  text-align: center;
+}
+.imageContainer {
+  height: 250px;
+}
+.icecreamImg {
+  height: 100%;
+  width: 100%;
+  transition: margin-top 0.5s;
+}
+.icecreamImg:hover {
+  margin-top: -45px;
+}
+.icecreamImgShadow {
+  display: none;
+}
+.title {
+  color: rgb(40, 17, 17);
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.orderBtn {
+  margin-top: 50px;
+}
+.h4 {
+  color: rgb(40, 17, 17);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.orderNow {
+  color: white;
+  background-color: rgb(241, 55, 126);
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  font-weight: bolder;
+  font-size: medium;
+
+  margin: auto;
+}
+.shopByRange {
+  height: 580px;
+  width: 100%;
+  margin-top: 75px;
+}
+.headingRange {
+  height: 15%;
+  text-align: center;
+}
+.titleRange {
+  color: rgb(202, 35, 91);
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  margin-top: 50px;
+}
+.imageRange {
+  height: 70%;
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.singleImage {
+  border-radius: 20px;
+  width: 25%;
+  height: 85%;
+  margin-left: 75px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Homepage_product_r1_Shop_by_Range-14_414x.png?v=1681719957");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 24px;
+}
+.singleImage2 {
+  border: 2px solid pink;
+  border-radius: 20px;
+  width: 25%;
+  height: 85%;
+  margin-left: 50px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Ice_Cream_Roll_Cakes_da0868a7-5a85-49cf-ad57-73ee357561c9_414x.png?v=1681719956");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 24px;
+}
+.singleImage3 {
+  border-radius: 20px;
+  width: 25%;
+  height: 85%;
+  margin-left: 50px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0624/7065/2146/files/Thickshakes_414x.png?v=1681719952");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 24px;
+}
+.singleTitle {
+  margin-top: 220px;
+}
+
+.favoriteSection {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.footer {
+  background-image: url("https://cdn.shopify.com/s/files/1/0624/7065/2146/t/25/assets/Footer_BG_New.png?v=35596627932696561531681920291");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+  position: relative;
+}
+.links {
+  display: flex;
+  height: 300px;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  top: 480px;
+}
+.linkSection {
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  text-align: start;
+  font-size: 16px;
+}
+.linkSection ul {
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.linkSection ul li {
+  margin-bottom: 10px;
+}
+.linkSection3 {
+  width: 60%;
+}
+.linkSection3 .searchBar {
+  width: 300px;
+  height: 50px;
+  border-style: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: medium;
+}
+.submitBtn {
+  color: white;
+  background-color: rgb(241, 55, 126);
+  border-style: none;
+  border-radius: 7px;
+  cursor: pointer;
+  height: 50px;
+  width: 120px;
+  font-weight: bolder;
+  font-size: medium;
+
+  margin-left: -15px;
+}
+.bottomIcons {
+  display: flex;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+}
+.icon {
+  width: 33%;
+}
+.h3 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.sitemap {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 400px;
+  margin-top: 35px;
+}
+.socialContainer {
+  width: 50%;
+  display: flex;
+  height: 100%;
+  margin: auto;
+}
+.icon .social {
+  height: 65%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.insideScoopContainer {
+  height: fit-content;
+  width: 67%;
+  margin-top: 50px;
+  margin: auto;
+  text-align: center;
+}
+.scoopHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insideScoopContainer .scoopHeading img {
+  height: 28px;
+}
+.insideScoopContainer .scoopHeading h1 {
+  font-family: "Noto Serif", serif;
+  margin-left: 15px;
+  margin-top: 2px;
+  color: rgb(40, 17, 17);
+}
+.scoopMain {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.scoopLinks {
+  width: 50%;
+  height: fit-content;
+  margin-top: 50px;
+  text-align: start;
+}
+.scoopLinks img {
+  width: 100%;
+  height: 250px;
+}
+.scoopLinks h2 {
+  color: rgb(241, 74, 129);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.scoopLinks p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.scoopLinks a {
+  color: rgb(241, 74, 129);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
